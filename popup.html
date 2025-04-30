@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>History & Bookmark Export</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 20px;
+      width: 300px;
+      color: #333;
+    }
+
+    h3 {
+      margin-bottom: 16px;
+      font-size: 18px;
+      color: #111827;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #exportBtn {
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #exportBtn:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <h3>히스토리 & 북마크 내보내기</h3>
+  <div class="container">
+    <button id="exportBtn">JSON 다운로드</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

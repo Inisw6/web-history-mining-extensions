@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "History & Bookmark Exporter",
+    "version": "1.0",
+    "description": "방문 기록과 북마크를 JSON으로 저장하는 확장",
+    "permissions": [
+      "history",
+      "bookmarks",
+      "downloads"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Export History & Bookmarks"
+    },
+    "background": {
+      "service_worker": "popup.js"
+    }
+  }
